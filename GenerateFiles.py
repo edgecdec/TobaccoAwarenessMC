@@ -10,5 +10,5 @@ def generateFiles():
         pass
     with open(funcsdir + '/tick.mcfunction', 'w') as file:
         file.write('function tobacco_awareness:addiction/addiction_selection_timer')
-    with open(datadir + '/pack.mcmeta', 'w') as file:
+    with open(rootdir + '/pack.mcmeta', 'w') as file:
         file.write(json.dumps({'pack': {'pack_format': 6, 'description': f'Tobacco Awareness Datapack by {", ".join(AUTHORS)}, et al.'}}, indent=4))

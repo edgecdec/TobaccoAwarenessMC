@@ -9,6 +9,3 @@ generateFiles()
 addictionHelperGenerator()
 
 shutil.make_archive('tobacco_awareness', 'zip', rootdir)
-
-
-

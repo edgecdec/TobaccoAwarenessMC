@@ -1,5 +1,5 @@
 #Put team1 helmet on
-execute as @a run item replace entity @p[team=team1] armor.head with leather_helmet{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1}],display:{color:5555FF}} 1
+execute as @a run item replace entity @p[team=team1] armor.head with leather_helmet{Unbreakable:1,display:{color:5555FF}},Enchantments:[{id:binding_curse,lvl:1}],HideFlags:4} 1
 
 #Put team2 helmet on
 execute as @a run item replace entity @p[team=team2] armor.head with leather_helmet{Unbreakable:1,Enchantments:[{id:binding_curse,lvl:1}],display:{color:FFAA00}} 1
